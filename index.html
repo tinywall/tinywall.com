@@ -7,334 +7,92 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<script src="js/jquery.min.js"></script>
-		<link href="lib/jquery.jqtimeline/jquery.jqtimeline.css" rel="stylesheet" type="text/css" media="all"/>
-		<script src="lib/jquery.jqtimeline/jquery.jqtimeline.js"></script>
-		
-		<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
-		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-		<meta name="google-site-verification" content="93VUKkiQDhowv280formCvzf-O7EEZeaYCG-33gUWDs" />
-		<meta name="alexaVerifyID" content="KtsMxz8eUVv1Qly-tjWzYdb9tvY" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="top-bannar" id="move-top">
-				<div class="top-header">
-					<div class="wrap"> 
-					<div class="logo">
-						<h1><a href="#"><img class='logo-img' src='images/logo.jpg' /> Tinywall<span> </span> </a></h1>
-					</div>
-					<ul class="nav masthead-nav">
-	                  <li><a href="#about">About</a></li>
-	                  <li><a href="#product">Product</a></li>
-	                  <!--<li><a href="#team">Team</a></li>-->
-	                  <li><a href="http://blog.tinywall.com" target="_blank">Blog</a></li>
-	                  <li><a href="#contact">Contact</a></li>
-	                </ul>
-					<div class="clear"> </div>
-					<div class="header-welcome-note">
-						<h2>We make ideas meet binaries.</h2>
-					</div>
-				</div>
-				</div>
-		</div>
-		<div class="content">
-			<div class="wrap">
-				<div class="top-grids" id="about" name="about">
-					<h2>Who we are.<span> </span></h2>
-					<div class='row'>
-						<div class='col-md-12'>
-							<!-- <div class='about-list'>
-							<ul>
-								<li class='active'>Our History</li>
-								<li>Our History</li>
-								<li>Our History</li>
-								<div class='clearfix'></div>
-							</ul>
-							</div> -->
-						</div>
-					</div>
-					<div class='row about-content'>
-						<div class='col-md-4 about-content-left'>
-							We're a recruitment based technology product company.
-						</div>
-						<div class='col-md-8 about-content-right'>
-							<p>
-								At Tinywall we think of viable ideas or in some cases abstract ideas and give them digital identity. Creativity and functionality has always been a paradox, but our team takes pride in merging them and making it into a quintessential software product. We are thinkers and technologists (often confused for dreamers and nerds) who share an insatiable thirst for creating and implementing innovative products. 
-							</p><br/><p>
-								We break down complex issues and adopt different strategies to find a solution, but we make our product's precision and verve a top priority. What makes us different is our resolve, which is to keep our ideas unprecedented and agile.</p>
-							
-							
+		<!-- <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">Tinywall</a>
+	        </div>
+	        <div class="collapse navbar-collapse navbar-right">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div> -->
+	    <div class="tw-navbar">
+	    	<div class='container'>
+	        <h1 class="tw-logo pull-left"><img class='tw-logo-img' src="images/logo.jpg" /> Tinywall</h1>
+	        <ul class="tw-nav nav nav-pills pull-right">
+	          <li class="active"><a href="index.html">Home</a></li>
+	          <li><a href="about.html">About</a></li>
+	          <li><a href="contact.html">Contact</a></li>
+	        </ul>
+	        </div>
+	      </div>
+	      <hr/>
+	    <div class="container tw-container">
 
-						</div>
-					</div>
-					<div class='tw-timeline-outer'>
-					<br/><h2>Our story.</h2><br/><br/>
-					<div id='tw-timeline'></div>
-					</div>
-							<script type="text/javascript">
-									var ev = [
-										{
-											id : 1,
-											name : "<br/>bunch of do-big believers meet at Karunya University, Coimbatore, India",
-											on : new Date(2007,6,1)
-										},{
-											id : 2,
-											name : "<br/>a web techno passioned crew emerges",
-											on : new Date(2008,4,30)
-										},{
-											id : 3,
-											name : "<br/>built a student social networking portal - Tinywall",
-											on : new Date(2009,7,30)
-										},{
-											id : 4,
-											name : "<br/>A Norwegian firm's partnership, trading our social engine",
-											on : new Date(2010,1,30)
-										},{
-											id : 5,
-											name : "<br/>unleashed a tech blog www.tinywall.info",
-											on : new Date(2011,11,30)
-										},{
-											id : 6,
-											name : "<br/>engaging startup ecosystem",
-											on : new Date(2012,7,30)
-										},{
-											id : 7,
-											name : "<br/>spotted a problem to solve, lack of part-time job system",
-											on : new Date(2013,1,1)
-										},{
-											id : 8,
-											name : "<br/>pursued further market research, launch of MVP",
-											on : new Date(2013,6,1)
-										},{
-											id : 9,
-											name : "<br/>Finalist at TiECON 2013 PitchFest and got incubated",
-											on : new Date(2013,11,1)
-										},{
-											id : 10,
-											name : " <br/>Winner of TiEcon Coimbatore 2014 PitchFest under open category",
-											on : new Date(2014,2,1)
-										},{
-											id : 11,
-											name : "<br/>Company incorporated, as Tinywall Technologies Private Limited",
-											on : new Date(2014,2,1)
-										},{
-											id : 12,
-											name : "<br/>started operations at Chennai, India",
-											on : new Date(2014,2,1)
-										}
-										]
-							var tl = $('#tw-timeline').jqtimeline({
-											events : ev,
-											numYears:8,
-											startYear:2007,
-											click:function(e,event){
-												//alert(event.name);
-											}
-										});
-						</script>
-					<div class="clear"> </div>
-				</div>
-			</div>
-			
+	      <div class="row tw-header">
 
-			<div class="works" id="product" name="product">
-				<div class="wrap">
-					<h2>Our product.<span> </span></h2>
+	        <h1 class="tw-header-title col-md-12">Part-time job marketplace.</h1>
+	        <div class="tw-header-desc col-md-6 col-md-offset-3">
+	        	We are here to help people find and participate in evolving part time job trend in India.
+	        </div>
+	      </div>
+	      <div class="row tw-actions">
+	      	<div class='col-md-2'></div>
+	      	<div class='col-md-3 tw-action'>
+      			<a href="employee.html" class='btn btn-info btn-lg'><i class='fa fa-briefcase'></i> Employee Registration</a>
+      		</div>
+      		<div class='col-md-1'>
+      			<div class='visible-md visible-lg visible-xl'><i class='fa fa-arrows-h'></i></div>
+      			<div class='hidden-md hidden-lg hidden-xl'><i class='fa fa-arrows-v'></i></div>
+      		</div>
+      		<div class='col-md-3 tw-action'>
+	      		<a href="employer.html" class='btn btn-success btn-lg'><i class='fa fa-money'></i> Employer Registration</a>
+      		</div>
+      		<div class='col-md-3'></div>
+          </div>
+	      <!-- <div class="row tw-sections">
+	      	<div class='col-md-4 tw-section'>
+	      		<div class='tw-section-icon'><i class='fa fa-briefcase'></i></div>
+	      		<div class='tw-section-title'>Simple design</div>
+				<div class='tw-section-desc'>
+					We designed and developed simple wordpress theme with useful theme options panel. We leave light styles for more easy and comfortable customizations. 
 				</div>
-				    <div class="wmuSlider example3">
-				        <div class="wmuSliderWrapper">
-				            <article>
-				            	<div class="wrap">
-				            	<div class="artical-info">
-				            		<h4><span class="artical-info-highlight">Jobbied</span>, a next generation job marketplace, engineered to find you the best <span class="artical-info-highlight label label-warning">part time job</span></h4>
-				            		<p>
- Not to worry on routine mundane jobs anymore. We got just the thing.
-
- Jobbied takes a distinct, simple, easy and data-intensive approach, as people can search thier perfect part time job near them, by categories and find personal matching suggestions.
-
- Long nights of market researches and statistical study has been transformed into algorithms in order to revolutionize a significant difference in the job market.</p>
-				            	</div>
-				            	<div class="artical-pic">
-				            		<img src="images/jobbied-demo.png" />
-				            		<div class="artical-pic-head">
-				            			<div class="artical-pic-head-left">
-				            				<a href="http://www.jobbied.com" target="_blank"><h4>www.jobbied.com <i class='fa fa-share'></i></h4></a>
-				            			</div>
-				            			<div class="clear"> </div>
-				            		</div>
-				            		<p>Jobbied steps you, in line for the revolutionary job trend, on web, mobile platforms, proudly aiding India, discover and promote part-time jobs</p>
-				            	</div>
-				            	</div>
-				            </article>
-				        </div>
-				    </div>
-			</div>						  
-			</div>
-			<div class="blog-info" id="team" name="team" style='display:none;'>
-				<div class="wrap">
-					<h3>The team.<span> </span></h3>
+	      	</div>
+	      	<div class='col-md-4 tw-section'>
+	      		<div class='tw-section-icon'><i class='fa fa-briefcase'></i></div>
+	      		<div class='tw-section-title'>Simple design</div>
+				<div class='tw-section-desc'>
+					We designed and developed simple wordpress theme with useful theme options panel. We leave light styles for more easy and comfortable customizations. 
 				</div>
-				<div class="wrap">
-					<div class='row'>
-						<div class='col-md-2 col-sm-0'>
-						</div>	
-						<div class='col-md-3 col-sm-6'>
-							<div class='team-member'>
-							<div class='team-img'>
-								<img src="images/mohankumar.jpeg">
-							</div>
-							<div class='team-desc'>
-								<h5>Mohankumar</h5>
-								The Process Guy 
-								<div class='team-icons'>
-								<a href="https://in.linkedin.com/in/smartmohi" target="_blank"><i class='fa fa-linkedin'></i></a>
-								<a href="https://www.facebook.com/smartmohi" target="_blank"><i class='fa fa-facebook'></i></a>
-								<a href="https://twitter.com/smartmohi" target="_blank"><i class='fa fa-twitter'></i></a>
-								</div>
-							</div>
-							</div>
-						</div>
-						<div class='col-md-3 col-sm-6'>
-							<div class='team-member'>
-							<div class='team-img'>
-								<img src="images/arundavid.jpg">
-							</div>
-							<div class='team-desc'>
-								<h5>Arun David</h5>
-								The Tech Guy
-								<div class='team-icons'>
-								<a href="https://twitter.com/arndvd" target="_blank"><i class='fa fa-twitter'></i></a>
-								<a href="https://www.facebook.com/arunmdavid" target="_blank"><i class='fa fa-facebook'></i></a>
-								<a href="https://github.com/arunmdavid" target="_blank"><i class='fa fa-github'></i></a>
-								</div>
-							</div>
-							</div>
-						</div>
-						<div class='col-md-3 col-sm-6 col-sm-offset-3  col-md-offset-0'>
-							<div class='team-member'>
-							<div class='team-img'>
-								<img src="images/avatar.png">
-							</div>
-							<div class='team-desc'>
-								<h5>You?</h5>
-								We are hiring<br/>
-								<a href="mailto:hr@tinywall.com">hr@tinywall.com</a>
-							</div>
-							</div>
-						</div>
-					</div>
+	      	</div>
+	      	<div class='col-md-4 tw-section'>
+	      		<div class='tw-section-icon'><i class='fa fa-briefcase'></i></div>
+	      		<div class='tw-section-title'>Simple design</div>
+				<div class='tw-section-desc'>
+					We designed and developed simple wordpress theme with useful theme options panel. We leave light styles for more easy and comfortable customizations. 
 				</div>
-			</div>
-			<div class='numbers'>
-				<div class='row'>
-				<div class='col-md-3 col-sm-6'>
-					<div class='numbers-group'>
-						<div class='numbers-title'>2014</div>
-						<div class='numbers-descrition'>INCORPORATED</div>
-						
-					</div>
-				</div>
-				<div class='col-md-3  col-sm-6'>
-					<div class='numbers-group'>
-						<div class='numbers-title'>8</div>
-						<div class='numbers-descrition'>SUPPORTERS</div>
-					</div>
-				</div>
-				<div class='col-md-3  col-sm-6'>
-					<div class='numbers-group'>
-						<div class='numbers-title'>2</div>
-						<div class='numbers-descrition'>LOCATIONS</div>
-					</div>
-				</div>
-				<div class='col-md-3  col-sm-6'>
-					<div class='numbers-group numbers-group-last'>
-						<div class='numbers-title'>1</div>
-						<div class='numbers-descrition'>PRODUCT</div>
-					</div>
-				</div>
-				</div>
-			</div>
-			<div class="get-intouch" id="contact" name="contact">
-				<div class="wrap">
-					<h3>Get in touch.<span> </span></h3>
-					<div class='row'>
-						<div class='col-md-3 col-sm-6 contact-section'>
-							<div class='contact-icon'><i class="fa fa-map-marker"></i></div>
-							<div class='contact-info'>
-								<h5>Address</h5>
-								Tinywall Technologies Pvt. Ltd.,<br/>42 Vijay Nagar,<br />
-Jothipuram (Post),<br />Coimbatore - 641047, India.
-
-							</div>
-						</div>
-						<div class='col-md-3 col-sm-6 contact-section'>
-							<div class='contact-icon'><i class="fa fa-mobile"></i></div>
-							<div class='contact-info'>
-								<h5>Contact</h5>
-								+91 99522-00022<br />+91 81234-00022
-							</div>
-						</div>
-						<div class='visible-sm'><div class='clearfix'></div></div>
-						<div class='col-md-3 col-sm-6 contact-section'>
-							<div class='contact-icon'><i class="fa fa-envelope-o"></i></div>
-							<div class='contact-info'>
-								<h5>Email</h5>
-								info@tinywall.com<br>
-								support@tinywall.com
-							</div>
-						</div>
-						<div class='col-md-3 col-sm-6 contact-section'>
-							<div class='contact-icon'><i class="fa fa-comments-o"></i></div>
-							<div class='contact-info'>
-								<h5>Social</h5>
-								<a href='https://www.facebook.com/tinywall' target="_blank"><i class="fa fa-facebook"></i> Facebook</a><br />
-								<a href='https://www.twitter.com/thetinywall' target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-								
-							</div>
-						</div>
-					</div>
-			</div>
-			<div class="copy-right">
-				<div class="wrap">
-					<div class="copy-right-left">
-					<p>&#169; 2014 <span>Tinywall Technologies Private Limited.</span>
-					<!--  Terms & Condition | Privacy policy</p> -->
-					</div>
-					<div class="copy-right-right">
-						<p>Thanks to <a href="http://getbootstrap.com/" target="_blank">TW BS</a>, <a href="http://github.com/" target="_blank">Github</a> and <a href="http://w3layouts.com/" target="_blank">W3layouts</a>. Made with <i class="fa-heart-o fa"></i> in India.</p>
-					    <a href="#move-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
-					</div>
-					<div class="clear"> </div>
-				</div>
-			</div>
-							<script type="text/javascript">
-									$(document).ready(function(){
-									$('a[href^="#"]').on('click',function (e) {
-									    e.preventDefault();
-									    var target = this.hash,
-									    $target = $(target);
-									    $('html, body').stop().animate({
-									        'scrollTop': $target.offset().top
-									    }, 1000, 'swing', function () {
-									        window.location.hash = target;
-									    });
-									});
-								});
-							</script>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
-		  ga('create', 'UA-26335022-1', 'tinywall.com');
-		  ga('send', 'pageview');
-		
-		</script>
-
+	      	</div>
+	      </div> -->
+	    </div><!-- /.container -->
+	    <div id="footer">
+	      <div class="container">
+	        <p class="text-muted pull-right tw-footer-copyright">&copy; 2014. Tinywall Technologies Private Limited.</p>
+	      </div>
+	    </div>
 	</body>
 </html>
