@@ -140,3 +140,20 @@ body {
 	height: 40px;
 	vertical-align: middle;
 }
+.tw-nav-col ul{
+	float: right;
+}
+@media (max-width: 768px) {
+	.tw-logo-col{
+		text-align: center;
+	}
+	.tw-nav-col{
+		width: 300px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 20px;
+	}
+	.tw-nav-col ul{
+		float: none;
+	}
+}
