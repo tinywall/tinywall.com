@@ -196,6 +196,12 @@ body {
 .tw-header-highlight{
 	color: #2980b9;
 }
+.tw-action-btn{
+	font-size: 18px;
+}
+.tw-action-exchange{
+	text-align: center;
+}
 /**********************media queries************************/
 @media (max-width: 768px) {
 	.tw-logo-col{
