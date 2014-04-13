@@ -8,7 +8,32 @@
 
 <url>
   <loc>http://www.tinywall.com/</loc>
-  <lastmod>2014-04-07T07:34:27+00:00</lastmod>
+  <lastmod>2014-04-11T08:09:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinywall.com/index.html</loc>
+  <lastmod>2014-04-11T08:09:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinywall.com/about.html</loc>
+  <lastmod>2014-04-11T08:09:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinywall.com/contact.html</loc>
+  <lastmod>2014-04-11T08:09:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinywall.com/employee.html</loc>
+  <lastmod>2014-04-11T08:09:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.tinywall.com/employer.html</loc>
+  <lastmod>2014-04-11T08:09:09+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
